@@ -912,6 +912,13 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@^7.11.2":
+  version "7.13.10"
+  resolved "https://artifacts.mlbinfra.net:443/artifactory/api/npm/web-npm/@babel/runtime/-/runtime-7.13.10.tgz#47d42a57b6095f4468da440388fdbad8bebf0d7d"
+  integrity sha1-R9QqV7YJX0Ro2kQDiP262L6/DX0=
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/template@^7.4.0", "@babel/template@^7.8.3", "@babel/template@^7.8.6":
   version "7.8.6"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.8.6.tgz#86b22af15f828dfb086474f964dcc3e39c43ce2b"
@@ -1171,10 +1178,10 @@
   resolved "https://registry.yarnpkg.com/@okta/configuration-validation/-/configuration-validation-0.4.1.tgz#6fa4520bc96c27b3d7aedcb0523de1fbceee9105"
   integrity sha512-p8QcApCSyAXtlyB7p7jXkAkcTedvK9WFkmEduVA3XxQQVs3njxD9vTooFj4+AF6WNRIuGOis/utL7m0BzYkyVw==
 
-"@okta/okta-auth-js@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@okta/okta-auth-js/-/okta-auth-js-3.0.0.tgz#8fc9d07e3e2906f6f2506fa92a483789892110fb"
-  integrity sha512-RD9R2JdNYKeg4OD6weRk/tHURVbC88L40ve2qZdbi1UrfdLyh3wlmrz5H/9H80my1t5JACZvUIR9MWnQaEapGA==
+"@okta/okta-auth-js@^3.2.6":
+  version "3.2.6"
+  resolved "https://artifacts.mlbinfra.net:443/artifactory/api/npm/web-npm/@okta/okta-auth-js/-/okta-auth-js-3.2.6.tgz#9eb457ee46576ade2cab9c2524096f0c91f17edf"
+  integrity sha1-nrRX7kZXat4sq5wlJAlvDJHxft8=
   dependencies:
     Base64 "0.3.0"
     cross-fetch "^3.0.0"
@@ -1183,15 +1190,14 @@
     tiny-emitter "1.1.0"
     xhr2 "0.1.3"
 
-"@okta/okta-react@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@okta/okta-react/-/okta-react-3.0.0.tgz#0a098149afd267bf05a74bbd304ca9db07fd6cbd"
-  integrity sha512-yV74/wH7BH4zc59/JijaNwX1s5q3fErhmDvUYKEgHVqC4ZbiQeOxYzAa4yPg5qCvLIr4YrMnb8IhcAMbBa4deg==
+"@okta/okta-react@3.0.10":
+  version "3.0.10"
+  resolved "https://artifacts.mlbinfra.net:443/artifactory/api/npm/web-npm/@okta/okta-react/-/okta-react-3.0.10.tgz#a0b86509c9514ca9ec423ffa59ca6ff74fbcb74f"
+  integrity sha1-oLhlCclRTKnsQj/6Wcpv90+8t08=
   dependencies:
+    "@babel/runtime" "^7.11.2"
     "@okta/configuration-validation" "^0.4.1"
-    "@okta/okta-auth-js" "^3.0.0"
-    babel-runtime "^6.26.0"
-    prop-types "^15.5.10"
+    "@okta/okta-auth-js" "^3.2.6"
 
 "@sheerun/mutationobserver-shim@^0.3.2":
   version "0.3.3"
@@ -8346,7 +8352,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.4"
 
-prop-types@^15.5.10, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
